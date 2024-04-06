@@ -3,29 +3,54 @@ package com.example.cs492.features.home.data
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.DirectionsRun
 import androidx.compose.material.icons.automirrored.filled.Message
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.AddAlert
+import androidx.compose.material.icons.filled.AdminPanelSettings
 import androidx.compose.material.icons.filled.Alarm
+import androidx.compose.material.icons.filled.Android
 import androidx.compose.material.icons.filled.Assessment
 import androidx.compose.material.icons.filled.Bluetooth
 import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.Build
 import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.Camera
+import androidx.compose.material.icons.filled.CardMembership
+import androidx.compose.material.icons.filled.Category
+import androidx.compose.material.icons.filled.Code
 import androidx.compose.material.icons.filled.ContactPhone
+import androidx.compose.material.icons.filled.ControlCamera
+import androidx.compose.material.icons.filled.Dashboard
+import androidx.compose.material.icons.filled.DeviceUnknown
+import androidx.compose.material.icons.filled.Devices
+import androidx.compose.material.icons.filled.DocumentScanner
+import androidx.compose.material.icons.filled.EnhancedEncryption
+import androidx.compose.material.icons.filled.Handyman
 import androidx.compose.material.icons.filled.InstallMobile
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.ManageAccounts
+import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MonetizationOn
 import androidx.compose.material.icons.filled.NetworkCell
 import androidx.compose.material.icons.filled.NetworkCheck
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Phone
+import androidx.compose.material.icons.filled.PhonelinkSetup
 import androidx.compose.material.icons.filled.Power
 import androidx.compose.material.icons.filled.PrivacyTip
+import androidx.compose.material.icons.filled.QuestionAnswer
 import androidx.compose.material.icons.filled.QuestionMark
+import androidx.compose.material.icons.filled.Report
 import androidx.compose.material.icons.filled.RunCircle
+import androidx.compose.material.icons.filled.Security
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Storage
+import androidx.compose.material.icons.filled.SystemSecurityUpdate
+import androidx.compose.material.icons.filled.Update
+import androidx.compose.material.icons.filled.Verified
+import androidx.compose.material.icons.filled.VerifiedUser
+import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VoiceChat
 import androidx.compose.material.icons.filled.Wifi
 import com.example.cs492.components.ExpandableHeaderCardData
@@ -585,6 +610,245 @@ val SignaturePermissionCardData: List<ExpandableHeaderCardData> = listOf(
         )
     )
 )
+
+
+
+val ScreenLockCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Screen Lock Security",
+        icon = ImageType.Vector(Icons.Filled.Security),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            Choose from various methods such as pattern, PIN, password, fingerprint, or face recognition to prevent unauthorized access. 
+            Set up your screen lock by navigating to Settings > Security > Screen lock on your phone.
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Screen Lock Notifications",
+        icon = ImageType.Vector(Icons.Filled.Notifications),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            ScreenLockCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Screen Lock Types",
+        icon = ImageType.Vector(Icons.Filled.Category),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            ScreenLockCardData
+        """.trimIndent()
+    )
+)
+
+val PrivacyCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Permissions Manager",
+        icon = ImageType.Vector(Icons.Filled.ManageAccounts),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            PermissionsManagerCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Privacy Dashboard",
+        icon = ImageType.Vector(Icons.Filled.Dashboard),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            PermissionsManagerCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Controls",
+        icon = ImageType.Vector(Icons.Filled.ControlCamera),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            PermissionsManagerCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Special App Access Settings",
+        icon = ImageType.Vector(Icons.Filled.AdminPanelSettings),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            PermissionsManagerCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Ads Data Management",
+        icon = ImageType.Vector(Icons.Filled.Handyman),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            PermissionsManagerCardData
+        """.trimIndent()
+    )
+)
+
+val FindMyDeviceCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Google Account",
+        icon = ImageType.Vector(Icons.Filled.AccountCircle),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            FindMyDeviceCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Location",
+        icon = ImageType.Vector(Icons.Filled.LocationOn),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            FindMyDeviceCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Device Finders",
+        icon = ImageType.Vector(Icons.Filled.Map),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            FindMyDeviceCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Google Play Visibility",
+        icon = ImageType.Vector(Icons.Filled.Visibility),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            FindMyDeviceCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Backup Codes",
+        icon = ImageType.Vector(Icons.Filled.Code),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            FindMyDeviceCardData
+        """.trimIndent()
+    )
+
+)
+
+val GooglePlayProtectCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Device Certification",
+        icon = ImageType.Vector(Icons.Filled.Devices),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            GooglePlayProtectCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Play Protect Scan",
+        icon = ImageType.Vector(Icons.Filled.DocumentScanner),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            GooglePlayProtectCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Reporting Unknown Apps",
+        icon = ImageType.Vector(Icons.Filled.Report),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            GooglePlayProtectCardData
+        """.trimIndent()
+    ),
+)
+
+val RootDetectionCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "What is Rooted Device",
+        icon = ImageType.Vector(Icons.Filled.DeviceUnknown),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            RootDetectionCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Is Your Device Rooted?",
+        icon = ImageType.Vector(Icons.Filled.QuestionMark),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            RootDetectionCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Unrooting",
+        icon = ImageType.Vector(Icons.Filled.QuestionAnswer),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            RootDetectionCardData
+        """.trimIndent()
+    )
+)
+
+val SoftwareUpdatesCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Device Android Version",
+        icon = ImageType.Vector(Icons.Filled.Android),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            SoftwareUpdatesCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Check Android Updates Available",
+        icon = ImageType.Vector(Icons.Filled.Update),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            SoftwareUpdatesCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Security & System Updates",
+        icon = ImageType.Vector(Icons.Filled.SystemSecurityUpdate),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            SoftwareUpdatesCardData
+        """.trimIndent()
+    ),
+)
+
+val DeviceEncryptionCardData: List<ExpandableHeaderCardData> = listOf(
+    ExpandableHeaderCardData(
+        headerText = "Encrypt Phone",
+        icon = ImageType.Vector(Icons.Filled.EnhancedEncryption),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            DeviceEncryptionCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Trusted Credentials",
+        icon = ImageType.Vector(Icons.Filled.Verified),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            DeviceEncryptionCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "User Credentials",
+        icon = ImageType.Vector(Icons.Filled.VerifiedUser),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            DeviceEncryptionCardData
+        """.trimIndent()
+    ),
+    ExpandableHeaderCardData(
+        headerText = "Certificates",
+        icon = ImageType.Vector(Icons.Filled.CardMembership),
+        iconContentDescription = "Internet access icon",
+        descriptionText = """
+            DeviceEncryptionCardData
+        """.trimIndent()
+    ),
+)
+
+
+
+
+
+
 
 
 

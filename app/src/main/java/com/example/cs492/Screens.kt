@@ -2,6 +2,8 @@ package com.example.cs492
 
 import com.example.cs492.data.app_permission.AppPermissionType
 import com.example.cs492.data.app_permission.Permission
+import com.example.cs492.data.android_setting.AppSettingType
+
 
 sealed class Screen(val route: String, var drawerItem: Int = 0) {
 
@@ -30,4 +32,9 @@ sealed class Screen(val route: String, var drawerItem: Int = 0) {
         fun createRoute(permission: String) = "app_permission_list/$permission"
     }
     object AppPermissionTypesOfPermissions: Screen("app_permission_types", drawerItem = 1)
+
+    // App Settings
+    object AppSettingList: Screen("app_setting_list/{settingType}", drawerItem = 2) {
+        fun createRoute(settingType: AppSettingType) = "app_setting_list/$settingType"
+    }
 }

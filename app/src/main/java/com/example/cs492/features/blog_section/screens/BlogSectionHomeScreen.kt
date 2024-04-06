@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun AndroidSettingsHomeScreen() {
+fun BlogSectionHomeScreen() {
     return Surface {
         Column (
             verticalArrangement = Arrangement.Top,

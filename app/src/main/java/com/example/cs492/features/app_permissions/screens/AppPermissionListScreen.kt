@@ -39,7 +39,7 @@ fun AppPermissionListScreen(
     val listData: List<ExpandableHeaderCardData> = when (backStackEntry) {
         AppPermissionType.NORMAL.toString() -> NormalPermissionCardData
         AppPermissionType.DANGEROUS.toString()  -> DangerousPermissionCardData
-        AppPermissionType.SIGNATURE.toString()  -> NormalPermissionCardData
+        AppPermissionType.SIGNATURE.toString()  -> SignaturePermissionCardData
         else -> SignaturePermissionCardData
     }
 
