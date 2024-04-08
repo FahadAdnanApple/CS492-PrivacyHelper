@@ -63,7 +63,7 @@ val DRAWER_ITEMS: List<DrawerItem> = listOf(
         screen = Screen.AppPermission,
     ),
     DrawerItem(
-        label = "Android Settings WalkThrough",
+        label = "Security Settings WalkThrough",
         iconSelected = ImageType.Vector(Icons.Filled.Settings),
         iconUnselected =  ImageType.Vector(Icons.Outlined.Settings),
         screen = Screen.AndroidSettings,
