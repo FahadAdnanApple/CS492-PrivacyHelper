@@ -91,14 +91,14 @@ fun Navigation(
 
         // App Setting Routes:
         composable(
-            route = Screen.AppSettingList.route,
+            route = Screen.AndroidSettingList.route,
             arguments = listOf(navArgument("settingType") { type = NavType.StringType })
         ) { backStackEntry ->
             val settingTypeArg = backStackEntry.arguments?.getString("settingType") ?: "DEFAULT_VALUE"
             NavigationDrawerWrapper(
                 navController = navController,
                 children = { AndroidSettingsListScreen(navController, settingTypeArg) },
-                itemIndex = Screen.AppSettingList.drawerItem
+                itemIndex = Screen.AndroidSettingList.drawerItem
             )
         }
     }

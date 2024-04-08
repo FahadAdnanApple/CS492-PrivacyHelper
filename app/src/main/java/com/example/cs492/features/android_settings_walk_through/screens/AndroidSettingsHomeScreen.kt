@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 import com.example.cs492.Screen
 import com.example.cs492.components.SecondaryButton
 import com.example.cs492.components.StandardText
-import com.example.cs492.data.android_setting.AppSettingType
+import com.example.cs492.data.android_setting.AndroidSettingType
 
 
 @Composable
@@ -67,8 +67,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Screen Lock",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.SCREEN_LOCK
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.SCREEN_LOCK
                             )
                         )
                     },
@@ -81,8 +81,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Privacy",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.PRIVACY
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.PRIVACY
                             )
                         )
                     },
@@ -95,8 +95,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Find My Device",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.FIND_MY_DEVICE
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.FIND_MY_DEVICE
                             )
                         )
                     },
@@ -109,8 +109,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Google Play Protect",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.GOOGLE_PLAY_PROTECT
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.GOOGLE_PLAY_PROTECT
                             )
                         )
                     },
@@ -123,8 +123,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Root Detection",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.ROOT_DETECTION
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.ROOT_DETECTION
                             )
                         )
                     },
@@ -137,8 +137,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Software Updates",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.SOFTWARE_UPDATES
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.SOFTWARE_UPDATES
                             )
                         )
                     },
@@ -151,8 +151,8 @@ fun AndroidSettingsHomeScreen(
                     text = "Device Encryption",
                     onClick = {
                         navController.navigate(
-                            Screen.AppSettingList.createRoute(
-                                AppSettingType.DEVICE_ENCRYPTION
+                            Screen.AndroidSettingList.createRoute(
+                                AndroidSettingType.DEVICE_ENCRYPTION
                             )
                         )
                     },

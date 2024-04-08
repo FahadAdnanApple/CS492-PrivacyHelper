@@ -868,7 +868,7 @@ val FindMyDeviceCardData: List<ExpandableHeaderCardData> = listOf(
             append("If you believe your device won't be recovered, you can select 'Erase device'.\n")
             append("This action will permanently delete all data on the device. Note that it may not erase SD cards.\n")
             append("Once erased, Find My Device won’t work on the device.\n")
-            append("Important: You'll need your Google Account password to use the device after it's been erased.\n")
+            append("Important: You'll need your Google Account password to use the device after it's been erased.")
         }
     )
 
@@ -945,7 +945,7 @@ val RootDetectionCardData: List<ExpandableHeaderCardData> = listOf(
         iconContentDescription = "Device Unknown icon",
         annotatedText = buildAnnotatedString {
             append("Definition: Rooting is gaining the ability to administer the device's operating system, enabling changes to the system that are not typically permissible.\n\n")
-            append("Risks: Rooted devices are more vulnerable to malicious apps, spyware, and stalkerware. The operating system's integrity is compromised, making the device less secure.\n\n")
+            append("Risks: Rooted devices are more vulnerable to malicious apps, spyware, and stalkerware. The operating system's integrity is compromised, making the device less secure.")
         }
     ),
     ExpandableHeaderCardData(
@@ -984,7 +984,7 @@ val RootDetectionCardData: List<ExpandableHeaderCardData> = listOf(
             append("Device Privacy and Security: Regularly check if devices have been rooted to maintain privacy and security.\n\n")
             append("Survivor Safety: In situations involving abuse or stalking, prioritize safety when checking for root status. If concerned, use safer devices and accounts for sensitive activities.\n\n")
             append("Technical Assistance: Seek help from phone repair professionals or carrier representatives, especially if rooting has voided the warranty.\n\n")
-            append("Unrooting Apps: If attempting to unroot using an app like SuperSU, ensure you download the legitimate version. Follow steps carefully to restore the device to its original firmware.\n\n")
+            append("Unrooting Apps: If attempting to unroot using an app like SuperSU, ensure you download the legitimate version. Follow steps carefully to restore the device to its original firmware.")
         }
     )
 )
@@ -1097,7 +1097,7 @@ val DeviceEncryptionCardData: List<ExpandableHeaderCardData> = listOf(
                 append("Encryption & credentials > User credentials")
                 pop()
             }
-            append(", these can be added to establish trust in personal or corporate networks or removed if they're no longer needed or if you no longer trust the issuer.\n\n")
+            append(", these can be added to establish trust in personal or corporate networks or removed if they're no longer needed or if you no longer trust the issuer.")
         }
     ),
     ExpandableHeaderCardData(
@@ -1115,7 +1115,7 @@ val DeviceEncryptionCardData: List<ExpandableHeaderCardData> = listOf(
                 pop()
             }
             append(", you have the option to add certificates if you need your device to trust more entities or remove them to revoke trust.\n\n")
-            append("Doing so controls what software and services are considered secure and can communicate securely with your device.\n\n")
+            append("Doing so controls what software and services are considered secure and can communicate securely with your device.")
         }
     ),
 )
